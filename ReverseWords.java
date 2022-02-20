@@ -1,6 +1,6 @@
 import java.util.regex.Pattern;
 
-public class Exp {
+public class ReverseWords {
     static String reverseWords(String str) {
         Pattern pattern = Pattern.compile("\\s");
         String[] temp = pattern.split(str);
