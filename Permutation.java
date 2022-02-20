@@ -10,10 +10,11 @@ public class Permutation {
    }
 
    public static void main(String args[]) {
-      int n = 7, r = 3, comb, per;
+      int n = 8, r = 4, comb, per;
       per = factorial(n) / factorial(n - r);
-      System.out.println("Permutation: " + per);
       comb = factorial(n) / (factorial(r) * factorial(n - r));
       System.out.println("Combination: " + comb);
+      
+      System.out.println("Permutation: " + per);
    }
 }

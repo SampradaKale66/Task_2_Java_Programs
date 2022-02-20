@@ -4,8 +4,8 @@ public class FibonacciSeries
 {
     public static void  main(String... args) 
     {
-        int first = 0;
-        int second = 1;
+        int first = 1;
+        int second = 0;
 
         Scanner in = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class FibonacciSeries
         int n = in.nextInt();
 
         System.out.println("Fibonacci series");
-        //System.out.println(first+" "+second+" ");
+        
 
         int next;
 

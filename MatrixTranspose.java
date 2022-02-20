@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatrixTranspose {
     public static void main(String args[]) {
         int i, j;
-        System.out.println("Enter total rows and columns: ");
+        System.out.println("Enter total colums and rows: ");
         Scanner s = new Scanner(System.in);
         int row = s.nextInt();
         int column = s.nextInt();
@@ -15,13 +15,6 @@ public class MatrixTranspose {
                 System.out.print(" ");
             }
         }
-        System.out.println("The above matrix before Transpose is ");
-        for (i = 0; i < row; i++) {
-            for (j = 0; j < column; j++) {
-                System.out.print(array[i][j] + " ");
-            }
-            System.out.println(" ");
-        }
         System.out.println("The above matrix after Transpose is ");
         for (i = 0; i < column; i++) {
             for (j = 0; j < row; j++) {
@@ -29,5 +22,13 @@ public class MatrixTranspose {
             }
             System.out.println(" ");
         }
+        System.out.println("The above matrix before Transpose is ");
+        for (i = 0; i < row; i++) {
+            for (j = 0; j < column; j++) {
+                System.out.print(array[i][j] + " ");
+            }
+            System.out.println(" ");
+        }
     }
+
 }
